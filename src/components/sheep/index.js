@@ -26,7 +26,7 @@ class Sheep extends Component {
   /**
    * Função de buscar os dados na api. Primeiro setSate do loading como TRUE, isso vai fazer o loading aparecer.
    * Com o callback dessa operação, ele busca os dados na API, extrai os dados de res.data e salva no estado 'fact' e volta o loading para FALSE
-   *
+   *DICA: sempre limpem os console.log quando finalizarem o arquivo.
    */
 
   getNewChuckFact = () => {
