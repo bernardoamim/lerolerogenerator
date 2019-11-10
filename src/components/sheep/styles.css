@@ -1,0 +1,13 @@
+.sheep {
+  height: 40vh;
+  background: inherit;
+  border: none;
+}
+
+.sheep:hover {
+  cursor: pointer;
+}
+
+#fact_container {
+  padding: 20px 20px;
+}
